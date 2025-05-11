@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/image.png" type="image/x-icon">
+    <script src="./script.js" defer></script>
+    <title>Rock Paper Scissor</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Rock Paper Scissors</h1>
+        <div class="rounds-select">
+            <label for="rounds">Number of Rounds:</label>
+            <select id="rounds">
+                <option value="3">3</option>
+                <option value="5" selected>5</option>
+                <option value="7">7</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+        <div class="game">
+            <div class="player-choice">
+                <h2>Your Choice</h2>
+                <button id="rock">Rock</button>
+                <button id="paper">Paper</button>
+                <button id="scissors">Scissors</button>
+            </div>
+            <div class="result">
+                <h2>Result</h2>
+                <p id="result-text"></p>
+            </div>
+        </div>
+        
+        <div class="score">
+            <h2>Score</h2>
+            <p id="player-score">Player: 0</p>
+            <p id="computer-score">Computer: 0</p>
+            <p id="rounds-played">Round: 0 / 5</p>
+        </div>
+        <button id="reset">Reset</button>
+    </div>
+</body>
+</html>

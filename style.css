@@ -1,0 +1,110 @@
+body {
+  background: #f0f4f8;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 32px 40px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 24px;
+  color: #222;
+}
+
+.game {
+  margin-bottom: 24px;
+}
+
+.player-choice h2,
+.result h2,
+.score h2 {
+  margin-bottom: 12px;
+  color: #444;
+}
+
+.player-choice button {
+  margin: 0 8px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background: #e0e7ef;
+  color: #222;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.player-choice button:hover {
+  background: #b6d0f7;
+  transform: translateY(-2px) scale(1.05);
+}
+
+.result {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+#result-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #2a7cff;
+  min-height: 24px;
+}
+
+.score {
+  margin-bottom: 20px;
+}
+
+#player-score,
+#computer-score {
+  font-size: 1rem;
+  margin: 4px 0;
+}
+
+#reset {
+  padding: 10px 24px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background: #ffb4b4;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#reset:hover {
+  background: #ff5c5c;
+}
+
+.rounds-select {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.rounds-select label {
+  font-size: 1rem;
+  color: #333;
+}
+
+.rounds-select select {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
